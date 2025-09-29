@@ -1,0 +1,32 @@
+.hero {
+  position: relative;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0));
+}
+.bg {
+  object-fit: cover;
+  z-index: -1;
+}
+.content {
+  text-align: center;
+  color: var(--foreground);
+  text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+  padding: 24px;
+}
+.cta {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 16px;
+  background: var(--brand);
+  color: var(--brand-contrast);
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .hero { min-height: 40vh; }
+  .content h1 { font-size: 1.5rem; }
+}

@@ -1,0 +1,38 @@
+.wrapper {
+  min-height: calc(100vh - 0px);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 16px;
+}
+.toolbar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.list {
+  display: grid;
+  gap: 8px;
+}
+.item {
+  border: 1px dashed var(--border);
+  padding: 12px;
+  border-radius: 10px;
+  background: #fff;
+}
+.item:focus {
+  outline: 2px solid #6366f1;
+  outline-offset: 2px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.handle {
+  cursor: grab;
+  color: var(--muted);
+}
+.undoRedo {
+  margin-left: auto;
+}

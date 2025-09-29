@@ -1,0 +1,11 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+.cell { line-height: 0; }
+.cell img { width: 100%; height: auto; object-fit: cover; }
+
+@media (max-width: 640px) {
+  .grid { grid-template-columns: 1fr; }
+}

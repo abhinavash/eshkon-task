@@ -1,0 +1,25 @@
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: center;
+  padding: 32px 0;
+}
+.left {}
+.right { text-align: right; }
+.cta {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 12px;
+  background: var(--brand);
+  color: var(--brand-contrast);
+  border-radius: 6px;
+}
+.image { height: auto; max-width: 100%; }
+
+@media (max-width: 900px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+  .right { text-align: left; }
+}

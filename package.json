@@ -1,0 +1,31 @@
+{
+  "name": "eshkon-task",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@contentful/app-sdk": "4.45.0",
+    "@reduxjs/toolkit": "2.9.0",
+    "contentful": "11.7.19",
+    "contentful-app-sdk": "3.31.0",
+    "contentful-management": "11.60.0",
+    "graphql": "16.11.0",
+    "graphql-request": "7.2.0",
+    "next": "15.5.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-redux": "9.2.0",
+    "redux-persist": "6.0.0",
+    "redux-undo": "1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}
